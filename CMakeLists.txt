@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 2.8)
 
 # 项目名称
 project(IPv6_VPN_First)
@@ -12,5 +12,6 @@ set(EXECUTABLE_OUTPUT_PATH ../bin)
 
 # 添加源文件
 add_executable(IPv6_VPN_First
+    add.cpp
     main.cpp
 )
