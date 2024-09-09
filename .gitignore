@@ -34,3 +34,5 @@
 # Ignore build and bin folders in the root directory
 /build/
 /bin/
+
+/.vscode/
